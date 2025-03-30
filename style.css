@@ -192,7 +192,7 @@ main{
                 grid-template-columns: repeat(3, 1fr);
 
                 button:hover{
-                    background: var(--topaz);
+                    background: var(--water-leaf);
                     cursor: pointer;
                     transition: .3s;
                 }
