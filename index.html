@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Cauculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <header><img src="./images/logo.svg" alt="Spliter Cauculator Logo"></header>
@@ -25,11 +26,11 @@
                 <strong>Select Tip %</strong>
 
                 <div>
-                    <button>5%</button>
-                    <button>10%</button>
-                    <button>15%</button>
-                    <button>25%</button>
-                    <button>50%</button>
+                    <button onclick="recieveTipPercentage(5)" id="button-5">5%</button>
+                    <button onclick="recieveTipPercentage(10)" id="button-10">10%</button>
+                    <button onclick="recieveTipPercentage(15)" id="button-15">15%</button>
+                    <button onclick="recieveTipPercentage(25)" id="button-25">25%</button>
+                    <button onclick="recieveTipPercentage(50)" id="button-50">50%</button>
                     <input type="number" id="custom-tip" placeholder="Custom">
                 </div>
             </div>
